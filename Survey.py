@@ -1,1 +1,11 @@
+Name = input("What is your name? ")
+Age = input("How old are you? ")
+Colour = input("What is your favourite colour? ")
+Hair = input("What colour is your hair? ")
+Animal = input("What is your favourite animal? ")
 
+output(Name)
+output(Age)
+output(Colour)
+output(Hair)
+output(Animal)
