@@ -13,7 +13,7 @@ def task_1():
     x = 10
     y = 10
 
-    return x == y # Edit only this line
+    return x < y # Edit only this line
 
 # 2.
 def task_2():
@@ -25,7 +25,9 @@ def task_3(): # Store your completed string in a variable called message
     message = None
 
     # Write your code here
-
+name = input("What is your name? ")
+age = input("How old are you? ")
+output("Hello, " + name + ", you are " + age + " years old!")
     # -------------------#
 
     return message
